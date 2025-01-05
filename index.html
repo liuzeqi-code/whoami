@@ -177,6 +177,16 @@
 						<div class="projectItemRight">
 							<img src="./static/img/i4.png" alt="">
 						</div>
+					
+					</a>
+					<a class="projectItem a" target="_blank" href="https://talkgemini.liuzeqi.us.kg">
+						<div class="projectItemLeft">
+							<h1>gemini</h1>
+							<p>google大模型</p>
+						</div>
+						<div class="projectItemRight">
+							<img src="./static/img/i3.png" alt="">
+						</div>
 
 					</a>
 					<a class="projectItem a" target="_blank" href="https://liuzeqi.us.kg">
@@ -213,6 +223,16 @@
 						</div>
 
 					</a>
+					<a class="projectItem a" target="_blank" href="https://talkgemini.liuzeqi.us.kg">
+						<div class="projectItemLeft">
+							<h1>gemini</h1>
+							<p>google大模型</p>
+						</div>
+						<div class="projectItemRight">
+							<img src="./static/img/i3.png" alt="">
+						</div>
+					
+					</a>
 					<a class="projectItem a" target="_blank" href="https://liuzeqi.us.kg">
 						<div class="projectItemLeft">
 							<h1>实验室</h1>
@@ -236,21 +256,26 @@
 					<img id="skillWap" src="./static/svg/skillWap.svg" alt="" srcset="">
 				</div>
 
-                <script src="https://giscus.app/client.js"
-                        data-repo="liuzeqi-code/whoami"
-                        data-repo-id="R_kgDOMG98vw"
-                        data-category="General"
-                        data-category-id="DIC_kwDOMG98v84ClZQs"
-                        data-mapping="pathname"
-                        data-strict="0"
-                        data-reactions-enabled="1"
-                        data-emit-metadata="0"
-                        data-input-position="bottom"
-                        data-theme="preferred_color_scheme"
-                        data-lang="zh-CN"
-                        crossorigin="anonymous"
-                        async>
-                </script>
+                <head>
+					<!-- ... -->
+					<link
+					  rel="stylesheet"
+					  href="./static/css/waline/waline.css"
+					/>
+					<!-- ... -->
+				</head>
+				  <body>
+					<!-- ... -->
+					<div id="waline"></div>
+					<script type="module">
+					  import { init } from './static/js/waline/waline.js';
+				  
+					  init({
+						el: '#waline',
+						serverURL: 'https://waline.liuzeqi.us.kg',
+					  });
+					</script>
+				  </body>
 
 			</content>
 		</div>
